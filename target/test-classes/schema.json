@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome2Element"
+    },
+    "definitions": {
+        "Welcome2Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "agent_name": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "agent_email": {
+                    "type": "string"
+                },
+                "agent_location": {
+                    "type": "string"
+                },
+                "createdat": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "agent_email",
+                "agent_location",
+                "agent_name",
+                "createdat",
+                "id"
+            ],
+            "title": "Welcome2Element"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "sms",
+    "brand": "prepaid",
+    "segment": "broadband",
+    "categoryIdentifier": [
+        "CheckRegistrationStatus",
+        "SubmitRegistration",
+        "UploadProofofID",
+        "SubmitConsent",
+        "UpdateRegistration",
+        "GetRegistration"
+    ],
+    "patternName": "OTP",
+    "patternId": "60553",
+    "mobileNumber": "639170001326"
+}

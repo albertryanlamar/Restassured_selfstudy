@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-05T21:08:53 SGT" name="Default suite" finished-at="2023-10-05T21:08:58 SGT" duration-ms="4674">
+    <groups>
+    </groups>
+    <test started-at="2023-10-05T21:08:53 SGT" name="Default test" finished-at="2023-10-05T21:08:58 SGT" duration-ms="4674">
+      <class name="day4.jsonparsingresponse">
+        <test-method signature="test_jsonResponse()[pri:0, instance:day4.jsonparsingresponse@1a245833]" started-at="2023-10-05T21:08:53 SGT" name="test_jsonResponse" finished-at="2023-10-05T21:08:55 SGT" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_jsonResponse -->
+        <test-method signature="testisapa()[pri:2, instance:day4.jsonparsingresponse@1a245833]" started-at="2023-10-05T21:08:55 SGT" name="testisapa" finished-at="2023-10-05T21:08:58 SGT" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisapa -->
+      </class> <!-- day4.jsonparsingresponse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
